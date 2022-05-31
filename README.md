@@ -9,6 +9,7 @@
 5. Добавьте в репозиторий файл requirements.txt из предыдущего модуля. 
 6. Создайте пустой файл __init__.py, чтобы работали относительные импорты.
 7. Создайте файл test_main_page.py и добавьте в него тест из предыдущего модуля: 
+
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"
     browser.get(link)
